@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BA029CD28D46A9700FD3E93 /* CardEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA029CC28D46A9700FD3E93 /* CardEntity.swift */; };
 		2BAA72D328D2D948008A52B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA72D228D2D948008A52B4 /* AppDelegate.swift */; };
 		2BAA72D528D2D948008A52B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA72D428D2D948008A52B4 /* ContentView.swift */; };
 		2BAA72D928D2D94B008A52B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAA72D828D2D94B008A52B4 /* Assets.xcassets */; };
 		2BAA72DC28D2D94B008A52B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BAA72DB28D2D94B008A52B4 /* Preview Assets.xcassets */; };
+		2BAA72E528D3194E008A52B4 /* BoreArView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA72E428D3194E008A52B4 /* BoreArView.swift */; };
+		2BAA72E828D3198A008A52B4 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 2BAA72E728D3198A008A52B4 /* FocusEntity */; };
+		2BAA72EB28D319BC008A52B4 /* RealityUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2BAA72EA28D319BC008A52B4 /* RealityUI */; };
+		2BAA72ED28D319D8008A52B4 /* BoreArView+Coaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA72EC28D319D8008A52B4 /* BoreArView+Coaching.swift */; };
+		2BAA72EF28D31A01008A52B4 /* BoreArView+FocusEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA72EE28D31A01008A52B4 /* BoreArView+FocusEntity.swift */; };
+		2BAA72F128D31A7A008A52B4 /* BoreArViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA72F028D31A7A008A52B4 /* BoreArViewContainer.swift */; };
+		2BAA72F328D31AC4008A52B4 /* BoreArViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA72F228D31AC4008A52B4 /* BoreArViewCoordinator.swift */; };
+		2BAA72F528D31B84008A52B4 /* BoreArViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA72F428D31B84008A52B4 /* BoreArViewDelegate.swift */; };
+		2BAA72F728D31BE0008A52B4 /* BoreArView+SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA72F628D31BE0008A52B4 /* BoreArView+SessionDelegate.swift */; };
+		2BAA72F928D328F7008A52B4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA72F828D328F7008A52B4 /* Card.swift */; };
+		2BAB259B28D81D3D00AFC570 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAB259A28D81D3D00AFC570 /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BA029CC28D46A9700FD3E93 /* CardEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEntity.swift; sourceTree = "<group>"; };
 		2BAA72CF28D2D948008A52B4 /* ARDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAA72D228D2D948008A52B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BAA72D428D2D948008A52B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BAA72D828D2D94B008A52B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BAA72DB28D2D94B008A52B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BAA72E428D3194E008A52B4 /* BoreArView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoreArView.swift; sourceTree = "<group>"; };
+		2BAA72EC28D319D8008A52B4 /* BoreArView+Coaching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BoreArView+Coaching.swift"; sourceTree = "<group>"; };
+		2BAA72EE28D31A01008A52B4 /* BoreArView+FocusEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BoreArView+FocusEntity.swift"; sourceTree = "<group>"; };
+		2BAA72F028D31A7A008A52B4 /* BoreArViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoreArViewContainer.swift; sourceTree = "<group>"; };
+		2BAA72F228D31AC4008A52B4 /* BoreArViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoreArViewCoordinator.swift; sourceTree = "<group>"; };
+		2BAA72F428D31B84008A52B4 /* BoreArViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoreArViewDelegate.swift; sourceTree = "<group>"; };
+		2BAA72F628D31BE0008A52B4 /* BoreArView+SessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BoreArView+SessionDelegate.swift"; sourceTree = "<group>"; };
+		2BAA72F828D328F7008A52B4 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2BAB259A28D81D3D00AFC570 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +48,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BAA72E828D3198A008A52B4 /* FocusEntity in Frameworks */,
+				2BAA72EB28D319BC008A52B4 /* RealityUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BA029CB28D46A8300FD3E93 /* ARClasses */ = {
+			isa = PBXGroup;
+			children = (
+				2BA029CC28D46A9700FD3E93 /* CardEntity.swift */,
+			);
+			path = ARClasses;
+			sourceTree = "<group>";
+		};
 		2BAA72C628D2D948008A52B4 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +83,10 @@
 		2BAA72D128D2D948008A52B4 /* ARDashboard */ = {
 			isa = PBXGroup;
 			children = (
+				2BAA72E228D31908008A52B4 /* Views */,
+				2BAA72E328D3191E008A52B4 /* Model */,
+				2BA029CB28D46A8300FD3E93 /* ARClasses */,
 				2BAA72D228D2D948008A52B4 /* AppDelegate.swift */,
-				2BAA72D428D2D948008A52B4 /* ContentView.swift */,
 				2BAA72D828D2D94B008A52B4 /* Assets.xcassets */,
 				2BAA72DA28D2D94B008A52B4 /* Preview Content */,
 			);
@@ -65,6 +99,30 @@
 				2BAA72DB28D2D94B008A52B4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BAA72E228D31908008A52B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2BAA72D428D2D948008A52B4 /* ContentView.swift */,
+				2BAA72E428D3194E008A52B4 /* BoreArView.swift */,
+				2BAA72EC28D319D8008A52B4 /* BoreArView+Coaching.swift */,
+				2BAA72EE28D31A01008A52B4 /* BoreArView+FocusEntity.swift */,
+				2BAA72F428D31B84008A52B4 /* BoreArViewDelegate.swift */,
+				2BAA72F028D31A7A008A52B4 /* BoreArViewContainer.swift */,
+				2BAA72F228D31AC4008A52B4 /* BoreArViewCoordinator.swift */,
+				2BAA72F628D31BE0008A52B4 /* BoreArView+SessionDelegate.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BAA72E328D3191E008A52B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2BAA72F828D328F7008A52B4 /* Card.swift */,
+				2BAB259A28D81D3D00AFC570 /* ModelData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +141,10 @@
 			dependencies = (
 			);
 			name = ARDashboard;
+			packageProductDependencies = (
+				2BAA72E728D3198A008A52B4 /* FocusEntity */,
+				2BAA72EA28D319BC008A52B4 /* RealityUI */,
+			);
 			productName = ARDashboard;
 			productReference = 2BAA72CF28D2D948008A52B4 /* ARDashboard.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +173,10 @@
 				Base,
 			);
 			mainGroup = 2BAA72C628D2D948008A52B4;
+			packageReferences = (
+				2BAA72E628D3198A008A52B4 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+				2BAA72E928D319BC008A52B4 /* XCRemoteSwiftPackageReference "RealityUI" */,
+			);
 			productRefGroup = 2BAA72D028D2D948008A52B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +204,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BAA72D528D2D948008A52B4 /* ContentView.swift in Sources */,
+				2BAA72F728D31BE0008A52B4 /* BoreArView+SessionDelegate.swift in Sources */,
+				2BAA72F128D31A7A008A52B4 /* BoreArViewContainer.swift in Sources */,
+				2BAA72EF28D31A01008A52B4 /* BoreArView+FocusEntity.swift in Sources */,
+				2BAA72ED28D319D8008A52B4 /* BoreArView+Coaching.swift in Sources */,
+				2BAB259B28D81D3D00AFC570 /* ModelData.swift in Sources */,
+				2BAA72F528D31B84008A52B4 /* BoreArViewDelegate.swift in Sources */,
+				2BAA72E528D3194E008A52B4 /* BoreArView.swift in Sources */,
+				2BAA72F928D328F7008A52B4 /* Card.swift in Sources */,
+				2BA029CD28D46A9700FD3E93 /* CardEntity.swift in Sources */,
 				2BAA72D328D2D948008A52B4 /* AppDelegate.swift in Sources */,
+				2BAA72F328D31AC4008A52B4 /* BoreArViewCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +419,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2BAA72E628D3198A008A52B4 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = exactVersion;
+				version = 2.2.6;
+			};
+		};
+		2BAA72E928D319BC008A52B4 /* XCRemoteSwiftPackageReference "RealityUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/RealityUI/";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2BAA72E728D3198A008A52B4 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BAA72E628D3198A008A52B4 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+		2BAA72EA28D319BC008A52B4 /* RealityUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BAA72E928D319BC008A52B4 /* XCRemoteSwiftPackageReference "RealityUI" */;
+			productName = RealityUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2BAA72C728D2D948008A52B4 /* Project object */;
 }
